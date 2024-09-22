@@ -4,23 +4,23 @@
 
 !!!Number Guessing Game!!!
 
-0) declare number_of_guesses
+1) number_of_guess declared here, so the loop isn't infinite.
 
-1) While number_of_guess is less than or equal to 3, we want to run the code below
-	1a) User Inputs Number (user_number)
-	1b) number_of_guesses + 1 ## please declare this outside of loop ##
+2) While number_of_guess is less than or equal to 3, we want to run the code below
+	2a) User Inputs Number (user_number)
+	2b) number_of_guesses + 1 ## please declare this outside of loop ##
 
-2) Verify IF number is NOT between 1 AND 10,
-	2a) if condition is met, PRINT "Please Guess A Number Between 1 and 10"
+3) Verify IF number is NOT between 1 AND 10,
+	3a) if condition is met, PRINT "Please Guess A Number Between 1 and 10"
 
-3) ELSE: Number is between 1 and 10, 
-	3a) we want to generate a random number between 1 and 10 (generated_number) and move to next IF statement
+4) ELSE: Number is between 1 and 10, 
+	4a) we want to generate a random number between 1 and 10 (generated_number) and move to next IF statement
 
 
-4) IF user_number is equal to generated number
-	4) PRINT "Yay! You guessed the number in number_of_guesses"
+5) IF user_number is equal to generated number
+	5a) PRINT "Yay! You guessed the number in number_of_guesses"
 
-5) ELSE:
-	5a) "Ope! Try Again"  ## i think it's too easy if we tell them if it's high or low. ##
-	5b) Starts at step 1 again.
+6) ELSE:
+	6a) "Ope! Try Again"  ## i think it's too easy if we tell them if it's high or low. ##
+	6b) Starts at step 2 again.
 	
