@@ -2,3 +2,16 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+! Product Package Counter !
+
+1) WHILE user_input IS EQUAL to  1 do below
+
+2) WHILE case_quantity is LESS THAN OR EQUAL to 50
+	1a) ADD 2 to case_quantity
+	1b) PRINT "case_quantity of 50 printed"
+
+3) PRINT "Case is full, please replace case"
+
+4) When new case is added, press 1, if order complete press 2.
+
+ 

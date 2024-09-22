@@ -2,3 +2,26 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+!Find the spot!
+
+1) INPUT item_name
+	1b) verify item_quantity is greater than 0
+	1a) item_name found in database, location then returned in item_location
+
+2) Display the item_location on a small_map of warehouse, display user_location
+
+3) Display list of directions, NORTH, SOUTH, WEST, EAST
+
+3) WHILE user_location is NOT EQUAL to item_location
+
+4) Display direction list, ## i.e. NORTH 2 Shelves, EAST 1 Shelf, SOUTH 1 Shelf ##
+
+5) Map should update while the user walks between shelves.
+
+6) When user reaches the item location, display should pop up, "You've reached your item_name, item_destination"
+
+7) returns to step 1
+
+Notes: 
+if user is at item_location it should display the pop up in step 6.
+if item_name is not found, it should display "item_name not found, see sales person for help"
